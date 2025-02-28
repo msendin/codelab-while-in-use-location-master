@@ -232,6 +232,13 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
         }
     }
 
+    /*override fun onNewIntent(intent: Intent?) {
+        super.onNewIntent(intent)
+
+    }
+
+     */
+
     // TODO: Step 1.0, Review Permissions: Handles permission result.
     override fun onRequestPermissionsResult(
         requestCode: Int,
